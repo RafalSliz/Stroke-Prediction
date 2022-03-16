@@ -16,6 +16,28 @@ The application was developed in Python and Streamlit framework. Based on the ma
 ## Deploying app in Google Cloud Platform
 The process of deploying an application in GCP is described in detail below. 
 
+<img src=" " width="400"/> 
+
+#### 1. Create account and log on to GCP
+#### 2. Create new project
+My Rirst Project > New project
+
+<img src="https://user-images.githubusercontent.com/35708288/158665837-7f7453ba-c91b-4d42-83b9-60f0d3fa2e99.png" width="400"/> 
+
+#### 3. Select the project as active 
+My Rirst Project > stroke-prediction
+
+<img src="https://user-images.githubusercontent.com/35708288/158666897-06abe2f8-3422-4fed-84d0-aed2e22e1262.png" width="400"/> 
+
+#### 4. Enable Compute Engine
+
+<img src="https://user-images.githubusercontent.com/35708288/158667640-16301ef6-9a1c-4f81-a895-7a261888b4f6.png" width="130"/> <img src="https://user-images.githubusercontent.com/35708288/158667651-2c4ccfc8-2347-43a7-bc25-8cbc3de1aacd.png" width="250"/> 
+
+
+
+
+
+
 
 
 You can check app: www.stroke-prediction.ml
