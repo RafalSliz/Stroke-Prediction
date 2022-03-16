@@ -1,4 +1,4 @@
 # Stroke-Prediction
 
 
-You can chech app at www.stroke-prediction.ml
+You can chek app at www.stroke-prediction.ml
