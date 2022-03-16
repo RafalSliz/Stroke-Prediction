@@ -5,4 +5,4 @@
 
 
 
-You can chek app at www.stroke-prediction.ml
+You can check app at www.stroke-prediction.ml
