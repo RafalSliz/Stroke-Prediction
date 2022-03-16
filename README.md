@@ -33,6 +33,47 @@ My Rirst Project > stroke-prediction
 
 <img src="https://user-images.githubusercontent.com/35708288/158667640-16301ef6-9a1c-4f81-a895-7a261888b4f6.png" width="130"/> <img src="https://user-images.githubusercontent.com/35708288/158667651-2c4ccfc8-2347-43a7-bc25-8cbc3de1aacd.png" width="250"/> 
 
+#### 5. Create instance
+<img src="https://user-images.githubusercontent.com/35708288/158681767-f1605e85-8dde-430a-b75d-2738ad240a64.png" width="400"/>
+<img src="https://user-images.githubusercontent.com/35708288/158681775-c9f34ff1-c22e-47a1-8b4d-225c6388aa14.png" width="350"/>
+<img src="https://user-images.githubusercontent.com/35708288/158681782-4dc7bd50-9b82-4bc1-ab28-53045a1059ff.png" width="400"/>
+<img src="https://user-images.githubusercontent.com/35708288/158681791-b5b96606-9ddf-4cb4-b22f-748943bdb054.png" width="350"/> 
+
+#### 6. Log in to newly created VM instance by SSH
+
+<img src="https://user-images.githubusercontent.com/35708288/158683030-9940bbb8-6c62-4f87-8075-cc55fc51b053.png" width="400"/>
+
+#### 7. Update package information
+```
+sudo apt update
+```
+#### 8. Install Supporting Software
+```
+sudo apt install software-properties-common
+```
+#### 9. Add Deadsnakes PPA
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+```
+#### 10. Install Python 3
+```
+sudo apt install python3
+```
+#### 11. Install Java
+```
+sudo apt install openjdk-8-jdk
+```
+#### 12. Download Spark
+Go to the Spark website and select the Spark release and package type to download. 
+
+https://spark.apache.org/downloads.html
+```
+wget https://dlcdn.apache.org/spark/spark-3.2.1/spark-3.2.1-bin-hadoop2.7.tgz
+```
+#### 13. Install Spark
+```
+sudo tar -zxvf spark-3.2.1-bin-hadoop2.7.tgz
+```
 
 
 
