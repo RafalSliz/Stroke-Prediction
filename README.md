@@ -16,8 +16,6 @@ The application was developed in Python and Streamlit framework. Based on the ma
 ## Deploying app in Google Cloud Platform
 The process of deploying an application in GCP is described in detail below. 
 
-<img src=" " width="400"/> 
-
 #### 1. Create account and log on to GCP
 #### 2. Create new project
 My Rirst Project > New project
@@ -74,6 +72,33 @@ wget https://dlcdn.apache.org/spark/spark-3.2.1/spark-3.2.1-bin-hadoop2.7.tgz
 ```
 sudo tar -zxvf spark-3.2.1-bin-hadoop2.7.tgz
 ```
+#### 14. Edit .bashrc
+Add environment variables:
+```
+export SPARK_HOME=~/pyspark/spark-3.2.1-bin-hadoop2.7
+export PATH=$PATH:$SPARK_HOME/bin
+export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+export PYSPARK_PYTHON=python3
+export PATH=$PATH:$JAVA_HOME/jre/bin
+```
+#### 15. Upload file to server
+Move all files in the Stroke-Prediction/App directory to the server. 
+
+<img src="https://user-images.githubusercontent.com/35708288/158706169-42d8a470-1419-49d2-9508-3755f1c97fb8.png" width="350"/>
+
+#### 16. Install requirements
+```
+pip3 install -r requirements.txt
+```
+
+#### 17. Create firewall rule
+For accessing the Streamlit application using external IP address you need to create a Firewall rule. This is necessary because Streamlit uses port 8501. 
+
+![11](https://user-images.githubusercontent.com/35708288/158707836-fe97bff8-3f47-4d10-89b8-cddb7cf3e205.png)
+
+![12](https://user-images.githubusercontent.com/35708288/158707856-8091d61e-1579-4f60-a4c8-3f987efca9b3.png)
+
+![13](https://user-images.githubusercontent.com/35708288/158707858-16f53a26-357b-440f-835b-b48fb85fbc7f.png)
 
 
 
