@@ -178,4 +178,4 @@ Run the Streamlit app
 streamlit run app.py
 ```
 That's all.
-You can check app: www.stroke-prediction.online
+You can check app: www.stroke-prediction.website
